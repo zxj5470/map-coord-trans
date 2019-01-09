@@ -1,13 +1,17 @@
 {
   "name": "map-coord-trans",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "private": false,
   "main": "src/index.js",
   "types": "src/index.d.ts",
   "description": "Map coordinate transform.",
   "scripts": {
     "build": "tsc -p .",
-    "publish": "npm build && npm publish",
+    "publish": "npm build && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zxj5470/map-coord-trans.git"
   },
   "devDependencies": {
     "@types/node": "^10.12.18"
