@@ -1,0 +1,37 @@
+{
+  "name": "map-coord-trans",
+  "version": "0.0.8",
+  "private": false,
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "description": "Map coordinate transform.",
+  "scripts": {
+    "build": "tsc -p .",
+    "publish": "npm build && npm publish",
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.18"
+  },
+  "files": [
+    "src/index.js",
+    "src/index.ts",
+    "src/index.d.ts",
+    "test/test.ts",
+    "test/test.js",
+    "LICENSE",
+    "package.json",
+    "tsconfig.json"
+  ],
+  "keywords": [
+    "coordtransform",
+    "map"
+  ],
+  "author": "zxj5470",
+  "license": "GPL-3.0",
+  "contributors": [
+    {
+      "name": "zxj5470",
+      "url": "https://github.com/zxj5470"
+    }
+  ]
+}
