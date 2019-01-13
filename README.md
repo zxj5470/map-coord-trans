@@ -1,10 +1,16 @@
 # Map Coordinate Transform
-
+<a href="https://www.npmjs.com/package/map-coord-trans"><img src="https://img.shields.io/npm/v/map-coord-trans.svg?style=flat-square&logo=npm" alt="Version"></a>
+<a href="https://www.npmjs.com/package/map-coord-trans"><img src="https://img.shields.io/npm/l/map-coord-trans.svg?style=flat-square&logo=npm" alt="License"></a>
 ## usage
+### Install
 ```sh
 npm install map-coord-trans
 ```
-### ts
+or add it to your packages.json
+```
+"map-coord":"^v0.1.0",
+```
+### Typescript
 ```typescript
 import * as mapCoordTrans from 'map-coord-trans';
 // or use require
@@ -29,7 +35,7 @@ console.log(bd2wgs);
 console.log(gcj2wgs);
 ```
 
-### js
+### Javascirpt
 ```javascript
 const mapCoordTrans = require('map-coord-trans');
 const bdQingchuan = mapCoordTrans.gcj2bd09(114.2866416361414, 30.55516459946725);
