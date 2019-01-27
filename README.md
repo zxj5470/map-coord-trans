@@ -1,6 +1,8 @@
 # Map Coordinate Transform
+<a href="https://www.npmjs.com/package/map-coord-trans"><img src="https://img.shields.io/npm/dt/map-coord-trans.svg?style=flat-square&logo=npm" alt="Downloads"></a>
 <a href="https://www.npmjs.com/package/map-coord-trans"><img src="https://img.shields.io/npm/v/map-coord-trans.svg?style=flat-square&logo=npm" alt="Version"></a>
 <a href="https://www.npmjs.com/package/map-coord-trans"><img src="https://img.shields.io/npm/l/map-coord-trans.svg?style=flat-square&logo=npm" alt="License"></a>
+
 ## usage
 ### Install
 ```sh
